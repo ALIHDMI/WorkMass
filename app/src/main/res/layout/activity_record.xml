@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="5dp"
+    android:background="#C8C6C6"
+    tools:context=".RecordActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="35dp">
+
+        <TextView
+            android:id="@+id/recordTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Отчет"
+            android:layout_gravity="center|top"
+            android:fontFamily="@font/bebascyrillic"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:cardBackgroundColor="#D1D3D1"
+                android:layout_marginStart="0dp"
+                app:cardCornerRadius="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Продолжительность"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/bebascyrillic"
+                    android:textSize="20sp"
+                    android:layout_gravity="center|top"/>
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1000"
+                    android:fontFamily="@font/bebascyrillic"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="мин"
+                    android:fontFamily="@font/bebascyrillic"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_gravity="center|bottom"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:cardBackgroundColor="#D1D3D1"
+                android:layout_marginStart="30dp"
+                app:cardCornerRadius="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Объем"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/bebascyrillic"
+                    android:textSize="20sp"
+                    android:layout_gravity="center|top"/>
+                <TextView
+                    android:id="@+id/kgs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1000"
+                    android:fontFamily="@font/bebascyrillic"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="кг"
+                    android:fontFamily="@font/bebascyrillic"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_gravity="center|bottom"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

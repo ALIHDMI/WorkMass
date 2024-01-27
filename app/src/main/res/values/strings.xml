@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">WORKMASS</string>
+    <string-array name="spinner">
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Chest</item>
+        <item>Deltoid</item>
+        <item>Quadriceps</item>
+    </string-array>
+    <string name="man">Мужчина</string>
+    <string name="woman">Женщина</string>
+    <string name="chooseSex">Выберите пол</string>
+    <string name="chooseBodyParts">Выберите части тела, на которых хотите сделать акцент и тип тренировок</string>
+
+    <string name="hand">Руки</string>
+    <string name="back">Спина</string>
+    <string name="leg">Ноги</string>
+    <string name="fullbody">Фулбоди</string>
+    <string name="split">Сплит</string>
+
+    <string name="ChooseTrainType">Выберите тип тренировок</string>
+
+    <string-array name="chooseExercise">
+        <item>Выпады с гантелями</item>
+        <item>Приседания со штангой</item>
+        <item>Жим ногами</item>
+        <item>Разгибания ног в тренажере</item>
+        <item>Болгарские выпады</item>
+        <item>Ягодичный мостик</item>
+        <item>Сгибания ног в тренажере</item>
+        <item>Становая тяга</item>
+        <item>Жим штанги стоя</item>
+        <item>Разведение гантелей в стороны</item>
+        <item>Тяга штанги к подбородку</item>
+        <item>Подъемы гантелей вперед</item>
+        <item>Махи гантелей в наклоне</item>
+        <item>Гиперэкстензия</item>
+        <item>Тяга верхнего блока</item>
+        <item>Тяга нижнего блока</item>
+        <item>Подтягивания</item>
+        <item>Тяга штанги в наклоне</item>
+        <item>Тяга гантели в наклоне</item>
+        <item>Штанга на бицепс</item>
+        <item>Гантели на бицепс</item>
+        <item>Молотки</item>
+        <item>Подтягивания обратным хватом</item>
+        <item>Жим штанги лежа</item>
+        <item>Жим штанги в наклоне</item>
+        <item>Жим гантелей лежа</item>
+        <item>Сведение рук в кроссовере</item>
+        <item>Пуловер</item>
+        <item>Французский жим</item>
+        <item>Разгибания рук на блоке</item>
+        <item>Отжимания от пола</item>
+        <item>Отжимания на брусьях</item>
+        <item>Обратные отжимания</item>
+        <item>Разгибания рук из-за головы</item>
+    </string-array>
+    <string-array name="delts">
+        <item>Жим штанги стоя</item>
+        <item>Разведение гантелей в стороны</item>
+        <item>Тяга штанги к подбородку</item>
+        <item>Подъемы гантелей вперед</item>
+        <item>Махи гантелей в наклоне</item>
+        <item></item>
+    </string-array>
+    <string-array name="arms">
+        <item>Штанга на бицепс</item>
+        <item>Гантели на бицепс</item>
+        <item>Молотки</item>
+        <item>Французский жим</item>
+        <item>Отжимания на брусьях</item>
+        <item>Разгибания рук на блоке</item>
+        <item>Разгибания рук из-за головы</item>
+    </string-array>
+    <string-array name="spine">
+        <item>Становая тяга</item>
+        <item>Гиперэкстензия</item>
+        <item>Тяга верхнего блока</item>
+        <item>Тяга нижнего блока</item>
+        <item>Подтягивания обратным хватом</item>
+        <item>Пуловер</item>
+        <item>Тяга Т-грифа</item>
+        <item>Тяга штанги в наклоне</item>
+    </string-array>
+    <string-array name="legs">
+        <item>Приседания</item>
+        <item>Выпады с гантелями</item>
+        <item>Жим ногами</item>
+        <item>Разгибания ног в тренажере</item>
+        <item>Болгарские выпады</item>
+        <item>Ягодичный мостик</item>
+        <item>Сгибания ног в тренажере</item>
+    </string-array>
+
+
+    <string name="splitabout">Тренировочный комплекс, разбитый на части. На каждую часть отведен свой день. За одно занятие атлет прорабатывает 2–3 группы мышц. Также программа сплит–тренировок предусматривает время для полноценного отдыха, чтобы организм как следует восстановился.</string>
+    <string name="fullbodyabout">Тренировочный комплекс, при которой все главные мышечные группы прорабатываются на каждом занятии. Вы тренируетесь 2–4 раза в неделю и всегда делаете по 1–2 упражнения на все главные группы мышц.</string>
+
+    <string name="example1">Приседания</string>
+    <string name="example2">Подходов: 3–4</string>
+    <string name="example3">Повторений: 6–8</string>
+    <string name="weight">Kg </string>
+
+    <string-array name="splitday1">
+        <item>Приседания со штангой</item>
+        <item>Жим ногами</item>
+        <item>Разгибания ног</item>
+        <item>Жим штанги стоя</item>
+        <item>Разведение гантелей в стороны</item>
+    </string-array>
+    <string-array name="splitday2">
+        <item>Гиперэкстензия</item>
+        <item>Становая тяга</item>
+        <item>Тяга верхнего блока</item>
+        <item>Тяга нижнего блока</item>
+        <item>Штанга на бицепс</item>
+        <item>Молотки</item>
+    </string-array>
+    <string-array name="splitday3">
+        <item>Жим штанги лежа</item>
+        <item>Жим гантелей лежа</item>
+        <item>Сведение рук в кроссовере</item>
+        <item>Французский жим</item>
+        <item>Разгибание рук на блоке</item>
+    </string-array>
+
+    <string-array name="splitday1howmuch">
+        <item>Подходов: 4</item>
+        <item>Подходов: 4</item>
+        <item>Подходов: 4</item>
+        <item>Подходов: 4</item>
+        <item>Подходов: 3</item>
+    </string-array>
+    <string-array name="splitday2howmuch">
+        <item>Подходов: 3</item>
+        <item>Подходов: 4</item>
+        <item>Подходов: 5</item>
+        <item>Подходов: 4</item>
+        <item>Подходов: 4</item>
+        <item>Подходов: 4</item>
+    </string-array>
+    <string-array name="splitday3howmuch">
+        <item>Подходов: 4</item>
+        <item>Подходов: 3</item>
+        <item>Подходов: 4</item>
+        <item>Подходов: 4</item>
+        <item>Подходов: 4</item>
+    </string-array>
+
+    <string-array name="splitday1reps">
+        <item>Повторений: 7</item>
+        <item>Повторений: 10</item>
+        <item>Повторений: 10</item>
+        <item>Повторений: 9</item>
+        <item>Повторений: 12</item>
+    </string-array>
+    <string-array name="splitday2reps">
+        <item>Повторений: 15</item>
+        <item>Повторений: 6</item>
+        <item>Повторений: 10</item>
+        <item>Повторений: 10</item>
+        <item>Повторений: 9</item>
+        <item>Повторений: 12</item>
+    </string-array>
+    <string-array name="splitday3reps">
+        <item>Повторений: 8</item>
+        <item>Повторений: 10</item>
+        <item>Повторений: 12</item>
+        <item>Повторений: 12</item>
+        <item>Повторений: 15</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Open">Открыть навигационную панель</string>
+    <string name="Close">Закрыть навигационную панель</string>
+
+    <string name="foodAboutBju">Универсальные рекомендации:
+
+Углеводы лучше «уничтожать» во время тренировок. В период набора массы вы должны потреблять больше калорий. Важно, чтобы они не уходили в жир, поэтому коктейли с высоким содержанием углеводов лучше принимать за 1.5-2 часа до и после интенсивной тренировки.
+Контролируйте прием триглицеридов. Если вы исключаете жиры животного происхождения из рациона, то это неизбежно снижает выработку тестостерона. Параллельно падает выносливость и работоспособность, повышается объем вредного холестерола, перестают усваиваться витамины и микроэлементы. Поэтому спортсмену рекомендуется принимать до 100 г триглицеридов животного происхождения, исключая при этом «вредные» и чрезмерно жирные продукты вроде снеков.
+Не переусердствуйте с кардионагрузками. В противном случае они могут начать «поедать» ваши мышцы. Чтобы поддерживать нормальную работу сердечно-сосудистой системы, достаточно пары получасовых пробежек в неделю. Основные тренировки при этом должны занимать не более 60 минут. Число подходов для каждого упражнения лучше снизить до 5, количество повторений – до 12.
+Сбалансируйте рацион. Универсальное соотношение БЖУ в период набора мышечной массы – это до 20% жиров, порядка 30% белков и до 60% углеводов. При этом жиры – полиненасыщенные, углеводы – сложные. Минимум 3 приема пищи, потребление углеводов относительно тренировок – за 1.5-2 часа до и после.
+Потребляйте достаточно жидкости. При наборе веса ее объем должен составлять порядка 3 литров в сутки. В противном случае вы рискуете получить обезвоживание и замедлить рост мышц.</string>
+</resources>

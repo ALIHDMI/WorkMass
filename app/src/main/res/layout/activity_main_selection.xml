@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="67dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="Подбор программы"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/imageButton1"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="24dp"
+            android:text="Новичек"
+            android:textSize="25sp"
+            android:fontFamily="@font/bebascyrillic"
+            android:background="@drawable/circleselection"
+            app:layout_constraintEnd_toStartOf="@id/imageButton2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <Button
+            android:id="@+id/imageButton2"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Продвинутый"
+            android:textSize="20sp"
+            android:fontFamily="@font/bebascyrillic"
+            android:background="@drawable/circleselection"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <Button
+            android:id="@+id/imageButton3"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Опытный"
+            android:textSize="25sp"
+            android:fontFamily="@font/bebascyrillic"
+            android:background="@drawable/circleselection"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imageButton2"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <TextView
+            android:id="@+id/textViewHuman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="Пол"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+        <TextView
+            android:id="@+id/textViewJoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+
+            android:fontFamily="@font/bebascyrillic"
+            android:text="Проблемы с суставами"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonPol" />
+
+        <TextView
+            android:id="@+id/textViewAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="Упор на"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonJointArm" />
+        <Button
+            android:id="@+id/buttonPol"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="60dp"
+            android:background="@drawable/circleselection"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="Муж"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewHuman" />
+
+        <Button
+            android:id="@+id/buttonPol2"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/circleselection"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="Жен"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewHuman" />
+
+        <Button
+            android:id="@+id/buttonJointLeg"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/circleselection"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="Ноги"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewJoints" />
+
+        <Button
+            android:id="@+id/buttonJointArm"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/circleselection"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="Руки"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewJoints" />
+
+        <Button
+            android:id="@+id/buttonJointsNo"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/circleselection"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="Нет"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewJoints" />
+
+        <Button
+            android:id="@+id/buttonAccentLegs"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="25dp"
+            android:background="@drawable/circleselection"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="Ноги"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAccent" />
+
+        <Button
+            android:id="@+id/buttonAccentArms"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circleselection"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="Руки"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAccent" />
+
+        <Button
+            android:id="@+id/buttonAccentSpine"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/circleselection"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="Спина"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAccent" />
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/moving"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="Далее"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

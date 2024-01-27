@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="@string/app_name"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="45sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/bebascyrillic"
+            android:gravity="center"
+            android:text="@string/chooseBodyParts"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+
+
+        <Button
+            android:id="@+id/buttonBodyParts2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/gradientgreen"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="@string/leg"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/goBodyParts"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/buttonBodyParts1"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:layout_constraintVertical_bias="0.346" />
+
+        <Button
+            android:id="@+id/buttonBodyParts3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="80dp"
+            android:background="@drawable/gradientgreen"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="@string/split"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/goBodyParts"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonBodyParts1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/buttonBodyParts4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="36dp"
+            android:background="@drawable/gradientgreen"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="@string/fullbody"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/goBodyParts"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/buttonBodyParts3"
+            app:layout_constraintTop_toBottomOf="@+id/buttonBodyParts1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/buttonBodyParts1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/gradientgreen"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="@string/back"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/goBodyParts"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:layout_constraintVertical_bias="0.346" />
+
+        <Button
+            android:id="@+id/buttonBodyParts"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/gradientgreen"
+            android:fontFamily="@font/bebascyrillic"
+            android:text="@string/hand"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/goBodyParts"
+            app:layout_constraintEnd_toStartOf="@+id/buttonBodyParts1"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:layout_constraintVertical_bias="0.346" />
+        <Button
+            android:id="@+id/goBodyParts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="90dp"
+            android:background="@drawable/color1"
+            android:fontFamily="@font/bebascyrillic"
+            android:onClick="onClickTrainType"
+            android:text="Go"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="-90dp"
+            android:layout_marginEnd="5dp"
+            android:onClick="onQuestion"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonBodyParts3"
+            app:layout_constraintHorizontal_bias="0.86"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonBodyParts"
+            app:layout_constraintVertical_bias="0.814"
+            app:srcCompat="@android:drawable/ic_menu_help" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

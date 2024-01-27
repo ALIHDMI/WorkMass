@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearwarmup"
+    android:orientation="vertical"
+    tools:context=".MainActivityWarmUp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Разминка"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/bebascyrillic"
+        android:textColor="@color/black"/>
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/head1"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Наклоны головы в стороны"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bebascyrillic"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="45sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/bebascyrillic"
+        android:textColor="@color/black"/>
+
+    <ImageButton
+        android:background="@drawable/play"
+        android:id="@+id/imageButton"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+
+</LinearLayout>
